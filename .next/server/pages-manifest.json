@@ -1,7 +1,0 @@
-{
-  "/": "pages/index.js",
-  "/styles/Pages-styled": "pages/styles/Pages-styled.js",
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
-}
