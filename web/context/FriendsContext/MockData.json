@@ -1,0 +1,100 @@
+{
+  "friends": [
+    {
+      "id": 0,
+      "fName": "Betty",
+      "lName": "Wood",
+      "email": "betty@gmail.com",
+      "phone": "(273) 098-1029",
+      "friendType": "Super Close Friends"
+    },
+    {
+      "id": 1,
+      "fName": "Rebecca",
+      "lName": "Flores",
+      "email": "rebeccaflores@gmail.com",
+      "phone": "(574) 243-2574",
+      "friendType": "Close Friends"
+    },
+    {
+      "id": 2,
+      "fName": "Kim",
+      "lName": "Holland",
+      "email": "kimholland@gmail.com",
+      "phone": "(357) 345-6324",
+      "friendType": null
+    },
+    {
+      "id": 3,
+      "fName": "Debra",
+      "lName": "Russel",
+      "email": "russel@gmail.com",
+      "phone": "(273) 111-1029",
+      "friendType": "Super Close Friends"
+    },
+    {
+      "id": 4,
+      "fName": "Betty",
+      "lName": "Wood",
+      "email": "betty@gmail.com",
+      "phone": "(273) 098-1029",
+      "friendType": "Super Close Friends"
+    },
+    {
+      "id": 5,
+      "fName": "Rebecca",
+      "lName": "Flores",
+      "email": "rebeccaflores@gmail.com",
+      "phone": "(574) 243-2574",
+      "friendType": "Close Friends"
+    },
+    {
+      "id": 6,
+      "fName": "Kim",
+      "lName": "Holland",
+      "email": "kimholland@gmail.com",
+      "phone": "(357) 345-6324",
+      "friendType": null
+    },
+    {
+      "id": 7,
+      "fName": "Debra",
+      "lName": "Russel",
+      "email": "russel@gmail.com",
+      "phone": "(273) 111-1029",
+      "friendType": "Super Close Friends"
+    },
+    {
+      "id": 8,
+      "fName": "Betty",
+      "lName": "Wood",
+      "email": "betty@gmail.com",
+      "phone": "(273) 098-1029",
+      "friendType": "Super Close Friends"
+    },
+    {
+      "id": 9,
+      "fName": "Rebecca",
+      "lName": "Flores",
+      "email": "rebeccaflores@gmail.com",
+      "phone": "(574) 243-2574",
+      "friendType": "Close Friends"
+    },
+    {
+      "id": 10,
+      "fName": "Kim",
+      "lName": "Holland",
+      "email": "kimholland@gmail.com",
+      "phone": "(357) 345-6324",
+      "friendType": null
+    },
+    {
+      "id": 11,
+      "fName": "Debra",
+      "lName": "Russel",
+      "email": "russel@gmail.com",
+      "phone": "(273) 111-1029",
+      "friendType": "Super Close Friends"
+    }
+  ]
+}
