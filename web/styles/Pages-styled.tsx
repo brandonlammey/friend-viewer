@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 html,
@@ -14,7 +14,7 @@ body {
   font-family: 'Inter', 'Avenir Next W00', 'Avenir Next', 'Avenir',
     'Helvetica Neue', sans-serif;
 }
-`
+`;
 
 export const AppWrapper = styled.div`
   display: flex;
@@ -22,4 +22,4 @@ export const AppWrapper = styled.div`
   padding: 0;
   height: 100vh;
   width: 100vw;
-`
+`;

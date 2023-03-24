@@ -1,37 +1,37 @@
 // Framework and third-party non-ui
-import Head from 'next/head'
-import React from 'react'
+import Head from "next/head";
+import React from "react";
 
 // App Components
-import { FriendsPage } from '../web/pages'
-import SideNav from '../web/components/SideNav'
-import { GlobalStyle, AppWrapper } from './styles/Pages-styled'
-import { Inter } from 'next/font/google'
+import { FriendsPage } from "../web/pages";
+import SideNav from "../web/components/SideNav";
+import { GlobalStyle, AppWrapper } from "../web/styles/Pages-styled";
+import { Inter } from "next/font/google";
 
 // JSON & Styles
-import HomeIcon from '../public/icons/home.svg'
-import FriendIcon from '../public/icons/friends.svg'
-import Layout from '../web/components/Layout'
-import { FriendsContextProvider } from '../web/context'
+import HomeIcon from "../public/icons/home.svg";
+import FriendIcon from "../public/icons/friends.svg";
+import Layout from "../web/components/Layout";
+import { FriendsContextProvider } from "../web/context";
 
 // Third-party components (buttons, icons, etc.)
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 const App: React.FunctionComponent = () => {
   // State
-  const [page, setPage] = React.useState<string>('friends')
+  const [page, setPage] = React.useState<string>("friends");
 
   const options = [
-    { icon: HomeIcon, id: 'home', title: 'Home' },
-    { icon: FriendIcon, id: 'friends', title: 'Friends' },
-  ]
+    { icon: HomeIcon, id: "home", title: "Home" },
+    { icon: FriendIcon, id: "friends", title: "Friends" },
+  ];
 
   // Actions
   const handleSelectPage = (id: string) => {
-    console.log(id)
-    setPage('friends')
-  }
+    console.log(id);
+    setPage("friends");
+  };
 
   // Effects
 
@@ -55,7 +55,7 @@ const App: React.FunctionComponent = () => {
         </Layout>
       </AppWrapper>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
